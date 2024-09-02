@@ -1,23 +1,7 @@
 # Rule-Based Chatbot
 This project is a simple yet elegant rule-based chatbot that responds to user inputs based on predefined rules. It is built using Python's Tkinter library for the user interface, and it utilizes basic if-else statements and pattern matching techniques to identify user queries and provide appropriate responses.
 
-# Project Structure
 
-
-Rule_based_chatbot/
-│
-├── venv/                # Virtual environment (not included in version control)
-├── src/                 # Source code directory
-│   ├── __init__.py      # Initialization file for the src module
-│   ├── chatbot.py       # Core logic for the chatbot's response mechanism
-│   ├── gui.py           # Graphical User Interface for the chatbot
-│
-├── tests/               # Unit tests directory
-│   ├── __init__.py      # Initialization file for the tests module
-│   ├── test_chatbot.py  # Unit tests for the chatbot logic
-│
-├── main.py              # Entry point to run the chatbot
-└── README.md            # Project documentation (this file)
 
 # Features
 Rule-Based Responses: The chatbot uses predefined rules to generate responses to user inputs.
@@ -37,46 +21,45 @@ Python 3.x: Ensure that Python is installed and added to your system's PATH.
    git clone https://github.com/yourusername/Rule_based_chatbot.git
    cd Rule_based_chatbot
 
-## Set Up a Virtual Environment:
 
 
-python -m venv venv
-Activate the Virtual Environment:
+2. **Set Up a Virtual Environment:**
 
-On Windows:
+   ```bash
+   python -m venv venv
 
-
-.\venv\Scripts\activate
-On macOS/Linux:
+3. **Activate the Virtual Environment:**
 
 
-source venv/bin/activate
+
+   ```bash
+
+   .\venv\Scripts\activate
 
 
-Install Dependencies:
+**Install Dependencies:**
 
 Since this project uses only the standard Python library (Tkinter), there are no additional packages to install. Tkinter is included with Python by default.
 
-Running the Chatbot
+4. **Running the Chatbot :** 
 Once the setup is complete, you can run the chatbot using the following command:
 
-bash
-Copy code
+```bash
+
 python main.py
-Running Tests
+
+5.**Running Tests:**
+
 To ensure that the chatbot's logic works as expected, you can run the unit tests. This project uses Python's built-in unittest framework.
 
 Navigate to the Tests Directory:
 
-bash
-Copy code
-cd tests
-Run the Tests:
+```bash
 
-bash
-Copy code
-python -m unittest discover
-This command will automatically discover and run all the test cases defined in the tests directory.
+   cd tests
+
+   python -m unittest discover
+
 
 Usage
 Interact with the Chatbot:
