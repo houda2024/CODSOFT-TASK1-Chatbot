@@ -1,5 +1,5 @@
 import tkinter as tk
-from src import ChatbotUI  # Ensure this matches the `__init__.py` configuration
+from src import ChatbotUI  
 
 def main():
     root = tk.Tk()
